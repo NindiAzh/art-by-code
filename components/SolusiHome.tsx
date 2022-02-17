@@ -24,24 +24,24 @@ const SolusiHome = () => {
 
       <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20 w-60'>
-            <Image src={webdev} />
+            <Image src={webdev} alt="webdev" />
           </div>
           <div className='mx-24 w-60'>
-            <Image src={appdev} />
+            <Image src={appdev} alt="appdev" />
           </div>
           <div className='mx-16 w-60'>
-            <Image src={uiux} />
+            <Image src={uiux} alt="uiux" />
           </div>
        </div>
        <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20 w-60'>
-            <Image src={machine} />
+            <Image src={machine} alt="machine" />
           </div>
           <div className='mx-24 w-60'>
-            <Image src={workflow} />
+            <Image src={workflow} alt="workflow" />
           </div>
           <div className='mx-16 w-60'>
-            <Image src={brand} />
+            <Image src={brand} alt="brand" />
           </div>
 
           <button className="bg-puerto-rico-500 text-white-50 text-sm mx-auto py-3 px-6 inline-flex items-center rounded mt-24">

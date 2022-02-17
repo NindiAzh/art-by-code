@@ -1,10 +1,11 @@
 import classNames from 'classnames'
+import image from 'next/image'
 
 const Design = ({para, judul, text, button,image, imgcClassName}: any) => {
   return (
     <>
         <div className='flex items-center bg-white-50'>
-            <img className={classNames("", imgcClassName)} src={image} />
+            <img className={classNames("", imgcClassName)} src={image} alt="webdev" />
 
             <div className='mt-10 ml-10'>
                 <p className="inline-block px-5 text-puerto-rico-500 text-xs">

@@ -13,7 +13,7 @@ const Design2 = ({para, judul, text, button,image, imgcClassName}: any) => {
                     {button}
                 </button>
                 <div className=''>
-                <img className={classNames("", imgcClassName)} src={image} />
+                <img className={classNames("", imgcClassName)} src={image} alt="appdev" />
                 </div>
             </div>
         </div>

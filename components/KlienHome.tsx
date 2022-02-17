@@ -28,46 +28,46 @@ const KlienHome = () => {
 
         <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20'>
-              <Image src={Satu}/>
+              <Image src={Satu} alt="satu"/>
           </div>
           <div className='flex justify-between mx-18'>
-              <Image src={Dua}/>
+              <Image src={Dua} alt="dua"/>
           </div>
           <div className='flex justify-between mx-12 pl-10'>
-              <Image src={Tiga}/>
+              <Image src={Tiga} alt="tiga"/>
           </div>
           <div className='flex justify-between mx-12'>
-              <Image src={Empat}/>
+              <Image src={Empat} alt="empat"/>
           </div>
           <div className='flex justify-between mx-10'>
-              <Image src={Lima}/>
+              <Image src={Lima} alt="lima"/>
           </div>
           <div className='flex justify-between mx-10'>
-              <Image src={Enam}/>
+              <Image src={Enam} alt="enam"/>
           </div>
         </div>
 
         <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20'>
-              <Image src={Tujuh}/>
+              <Image src={Tujuh} alt="tujuh"/>
           </div>
           <div className='flex justify-between mx-18'>
-              <Image src={Delapan}/>
+              <Image src={Delapan} alt="lapan"/>
           </div>
           <div className='flex justify-between mx-12 pl-10'>
-              <Image src={Sembilan}/>
+              <Image src={Sembilan} alt="sembilan"/>
           </div>
           <div className='flex justify-between mx-12'>
-              <Image src={Sepuluh}/>
+              <Image src={Sepuluh} alt="sepuluh"/>
           </div>
         </div>
 
         <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20 pl-52 pr-6'>
-              <Image src={Sebelas}/>
+              <Image src={Sebelas} alt="sebelas"/>
           </div>
           <div className='flex justify-between'>
-              <Image src={DuaBelas}/>
+              <Image src={DuaBelas} alt="duabelas"/>
           </div>
         </div>
 

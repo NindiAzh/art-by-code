@@ -20,7 +20,7 @@ const Navbar = () => {
                                 {/* kek buat blok untuk tempat Logo */}
                         <div className="flex items-center mx-32 justify-between w-full">
                                 <div className="flex justify-center items-center flex-shrink-0">
-                                   <Image src={Logoabc}/>
+                                   <Image src={Logoabc} alt="logoabc"/>
                                 </div>
                                         {/* artinya akan hidden saat di uk mobile dan akan muncul (blok) saat di md keatas */}
                                 <div className="hidden md:block">
