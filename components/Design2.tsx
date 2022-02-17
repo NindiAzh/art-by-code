@@ -3,7 +3,7 @@ import classNames from 'classnames'
 const Design2 = ({para, judul, text, button,image, imgcClassName}: any) => {
   return (
     <>
-        <div className='flex items-center bg-white-50'>
+        <div className='flex items-center'>
             <div className='mt-10'>
                 <p className="inline-block px-5 text-puerto-rico-500 text-xs">
                     {para}</p>

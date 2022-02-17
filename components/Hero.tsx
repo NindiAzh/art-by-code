@@ -18,7 +18,7 @@ const Hero = () => {
             <Button2>mau tau lebih banyak</Button2>
             </div>
             <div className='py-20 pr-10 w-2/3'>
-                <Image className='' src={imgHome} />
+                <Image className='' src={imgHome} alt="imghome" />
             </div>
         </section>
 
