@@ -1,4 +1,3 @@
-import Design2 from "./Design2"
 import Image from "next/image"
 import Dua from '../public/dua.svg'
 
@@ -23,8 +22,8 @@ const AppDev = () => {
             
         </section> */}
 
-<section className='flex justify-between bg-puerto-rico-50 py-28 xl:mx-20'>
-            <div className='overlay text-center mx-14 py-28 sm:text-left'>
+        <section className='bg-puerto-rico-50 flex justify-between'>
+            <div className='overlay text-center mx-28 py-28 sm:text-left'>
                 <p className="inline-block py-4 px-5 text-puerto-rico-500 text-xs">
                 APP DEVELOPMENT</p>
                 <h1 className="font-black text-5xl mb-4 px-2 w-2/2 leading-snug">“Bangun aplikasi itu susah”,

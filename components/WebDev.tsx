@@ -1,11 +1,13 @@
 import Button2 from '../components/Button2'
 import Image from 'next/image'
-import Satu from '../public/satu.svg'
+import Kotak from '../public/kotak.svg'
 import Design from './Design'
 
 
 const WebDev = () => {
   return (
+
+  <>
     <section className='flex justify-between py-18 xl:mx-20'>
       {/* <div className='py-12 pl-16 w-3/4'>
         <Image src={Satu} />
@@ -29,9 +31,18 @@ const WebDev = () => {
           <button className="bg-puerto-rico-500 text-white-50 text-sm py-2 px-4 mt-14 mx-5 inline-flex items-center rounded-md">
                 Saya siap!
           </button> */}
+          
+      <div className='mt-4 pl-96 ml-64'>
+          <Image src={Kotak} alt="kotak" />
       </div>
+
+      </div>
+
+      
    
 </section>
+
+</>
 
   )
 }

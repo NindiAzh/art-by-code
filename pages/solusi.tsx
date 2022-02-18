@@ -3,6 +3,7 @@ import Button2 from '../components/Button2'
 import Image from 'next/image'
 import WebDev from '../components/WebDev'
 import AppDev from '../components/AppDev'
+import UiUx from '../components/uiux'
 
 
 const solusi = () => {
@@ -31,6 +32,7 @@ const solusi = () => {
 
         <WebDev/>
         <AppDev/>
+        {/* <UiUx/> */}
 
         </>
     )
