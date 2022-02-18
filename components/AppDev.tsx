@@ -24,7 +24,7 @@ const AppDev = () => {
 
         <section className='bg-puerto-rico-50 flex justify-between'>
             <div className='overlay text-center mx-28 py-28 sm:text-left'>
-                <p className="inline-block py-4 px-5 text-puerto-rico-500 text-xs">
+                <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                 APP DEVELOPMENT</p>
                 <h1 className="font-black text-5xl mb-4 px-2 w-2/2 leading-snug">“Bangun aplikasi itu susah”,
                     kata mereka, bukan kami</h1>
