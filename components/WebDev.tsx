@@ -13,7 +13,7 @@ const WebDev = () => {
         <Image src={Satu} />
       </div>
  */}
-      <div className='overlay text-center mx-6 mr-28 py-6 w-full sm:text-left'>
+      <div className='overlay text-center mx-18 mr-28 py-6 w-full sm:text-left'>
           <Design
             image="/satu.svg"
             imgcClassName="py-2 pl-8 w-2/4"

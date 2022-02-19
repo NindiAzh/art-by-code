@@ -8,7 +8,7 @@ const uiux = () => {
     <>
          <section className='flex justify-between py-32 xl:mx-20'>
 
-                <div className='overlay text-center mx-6 mr-28 py-6 w-full sm:text-left'>
+                <div className='overlay text-center mx-6 mr-24 py-6 w-full sm:text-left'>
                     <Design
                         image="/tiga.svg"
                         imgcClassName="py-2 pl-8 w-2/4"

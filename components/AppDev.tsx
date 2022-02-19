@@ -23,14 +23,14 @@ const AppDev = () => {
         </section> */}
 
         <section className='bg-puerto-rico-50 flex justify-between'>
-            <div className='overlay text-center mx-28 py-28 sm:text-left'>
+            <div className='overlay text-center mx-20 ml-32 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                 APP DEVELOPMENT</p>
                 <h1 className="font-black text-5xl mb-4 px-2 w-2/2 leading-snug">“Bangun aplikasi itu susah”,
                     kata mereka, bukan kami</h1>
-                <p className="text-lg font-normal px-4 w-3/2">Saat ini (hampir) semua orang pasti memiliki ponsel pintar dan akan selalu
+                <p className="text-lg font-normal ml-3 px-0 w-3/2">Saat ini (hampir) semua orang pasti memiliki ponsel pintar dan akan selalu
                     membawanya kemanapun mereka berada. Jadi, tunggu apa lagi?</p>
-                <button className="bg-puerto-rico-500 text-white-50 text-sm py-2 px-4 mt-14 mx-5 inline-flex items-center rounded-md">
+                <button className="bg-puerto-rico-500 text-white-50 text-sm py-2 px-4 mt-14 mx-3 inline-flex items-center rounded-md">
                         Ayo Bangun!
                     </button>
             </div>
