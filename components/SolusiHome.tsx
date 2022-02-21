@@ -45,7 +45,7 @@ const SolusiHome = () => {
           </div>
 
           <button className="bg-puerto-rico-500 text-white-50 text-sm mx-auto py-3 px-6 inline-flex items-center rounded-md mt-20">
-              lihat detailnya dong
+              Lihat detailnya dong
           </button>
 
 

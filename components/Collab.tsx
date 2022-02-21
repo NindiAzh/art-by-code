@@ -4,15 +4,16 @@ import Cb1 from '../public/cb1.svg'
 import Cb2 from '../public/cb2.svg'
 import Cb3 from '../public/cb3.svg'
 import CardCollab from "./CardCollab"
+import Passion from "./Passion"
 
 const Collab = () => {
   return (
     <>
-        <section className='flex justify-between py-24 xl:mx-20'>
+        <section className='flex justify-between py-24 xl:mx-20 font-nuni'>
             <div className='overlay text-center mx-4 ml-10 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                     COLLABORATION</p>
-                <h1 className="font-normal text-5xl mb-4 px-4 w-2/3 leading-snug">Kami suka <span className="font-black">berkolaborasi</span></h1>
+                <h1 className="font-light text-5xl mb-4 px-4 w-2/3 leading-snug">Kami suka <span className="font-black">berkolaborasi</span></h1>
                 <p className="text-lg font-normal px-4 w-4/6">Komunikasi dan transparansi adalah fondasi dari hubungan 
                     jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol
                     dan gali lebih dalam lagi kebutuhan kamu! </p>
@@ -58,6 +59,7 @@ const Collab = () => {
                 
 
         </section>
+        <Passion/>
 
 
     </>

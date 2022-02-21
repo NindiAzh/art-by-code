@@ -4,7 +4,7 @@ import image from 'next/image'
 const Design = ({para, judul, text, button,image, imgcClassName}: any) => {
   return (
     <>
-        <div className='flex items-center bg-white-50'>
+        <div className='flex items-center bg-white-50 font-nuni'>
             <img className={classNames("", imgcClassName)} src={image} alt="webdev" />
 
             <div className='mt-10 ml-8'>

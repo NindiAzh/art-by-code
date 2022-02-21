@@ -4,7 +4,7 @@ import Empat from '../public/empat.svg'
 const Machine = () => {
   return (
     <>
-        <section className='bg-puerto-rico-50 mb-6 flex justify-between'>
+        <section className='bg-puerto-rico-50 mb-6 flex justify-between font-nuni'>
             <div className='overlay text-center mx-28 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                      MACHINE LEARNING</p>

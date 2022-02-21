@@ -24,7 +24,7 @@ const Navbar = () => {
                                 </div>
                                         {/* artinya akan hidden saat di uk mobile dan akan muncul (blok) saat di md keatas */}
                                 <div className="hidden md:block">
-                                    <div className="ml-10 flex items-baseline space-x-6">
+                                    <div className="ml-10 flex items-baseline space-x-6 font-nuni">
                                         <Link href="/"><a className="cursor-pointer text-black font-bold px-3 py-2 text-[18px]">Tentang Kami</a></Link>
                                         <Link href="/solusi"><a className="cursor-pointer text-black px-3 py-2 rounded-md text-[18px] font-bold flex items-center">
                                             Solusi Kami <svg className='ml-4' width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">

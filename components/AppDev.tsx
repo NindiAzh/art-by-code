@@ -22,7 +22,7 @@ const AppDev = () => {
             
         </section> */}
 
-        <section className='bg-puerto-rico-50 flex justify-between'>
+        <section className='bg-puerto-rico-50 flex justify-between font-nuni'>
             <div className='overlay text-center mx-20 ml-32 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                 APP DEVELOPMENT</p>
