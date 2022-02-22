@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Code from '../public/clean.svg'
+import Technical from "./Technical"
 
 const Clean = () => {
   return (
@@ -18,6 +19,7 @@ const Clean = () => {
                     <Image className='' src={Code} alt="appdev"/>
                 </div>
         </section>
+        <Technical/>
 
     </>
   )

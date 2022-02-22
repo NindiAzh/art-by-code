@@ -7,10 +7,10 @@ const Passion = () => {
   return (
     <>
          <section className='bg-puerto-rico-50 flex justify-between font-nuni'>
-                <div className='py-44 pl-32 w-2/3'>
+                <div className='py-32 pl-32 w-2/3'>
                     <Image src={Img1} alt="appdev"/>
                 </div>
-            <div className='overlay text-center mx-4 ml-4 py-28 sm:text-left'>
+            <div className='overlay text-center mx-4 ml-4 py-16 sm:text-left'>
             
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                     PASSION</p>
@@ -56,7 +56,7 @@ const Passion = () => {
             </div>
         </section>
 
-<Clean/>
+            <Clean/>
     </>
   )
 }
