@@ -6,6 +6,8 @@ import Machine from '../components/Machine'
 import Flow from '../components/Flow'
 import Brand from '../components/Brand'
 import JudulProject from '../components/JudulProject'
+import Footer from "../components/Footer"
+
 
 
 const solusi = () => {
@@ -39,7 +41,7 @@ const solusi = () => {
         <Flow/>
         <Brand/>
 
-        <div className='container mx-auto py-24 2xl:px-10'>
+        {/* <div className='container mx-auto py-24 2xl:px-10'>
           <svg className='mx-auto' width="420" height="293" viewBox="0 0 420 293" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_49_846)">
           <path d="M0 202.067L11.6667 201.367C23.3333 200.667 46.6667 199.267 70 195.3C93.3333 191.333 116.667 184.8 140 188.767C163.333 192.733 186.667 207.2 210 216.16C233.333 225.073 256.667 228.527 280 224.14C303.333 219.8 326.667 207.667 350 198.707C373.333 189.793 396.667 184.007 408.333 181.16L420 178.267" stroke="#1DC0AD" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round"/>
@@ -72,12 +74,17 @@ const solusi = () => {
 
       
       <div className='flex justify-between'>
-       <a className='mx-auto mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
+       <a className='font-nuni mx-auto mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
           Hubungi Kami
         </a>
     </div>
 
-    </div>
+    </div> */}
+
+          <div className='pb-24'>
+            <Footer/>
+          </div>
+  
 
         </>
     )

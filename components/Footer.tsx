@@ -53,8 +53,3 @@ const Footer = () => {
 
 export default Footer
 
-{/* <div>
-<JudulProject>Apakah kamu siap?</JudulProject>
-<p className='text-lg font-medium pt-10'>Beritahu kami apa yang mau kamu bangun atau kesulitan</p>
-   <p className='text-lg font-medium'> apa yang kamu hadapi</p>
-</div> */}

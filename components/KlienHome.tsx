@@ -13,6 +13,7 @@ import Sembilan from '../public/menbiska.svg'
 import Sepuluh from '../public/medco.svg'
 import Sebelas from '../public/bank.svg'
 import DuaBelas from '../public/docotel.svg'
+import Footer from './Footer'
 
 
 const KlienHome = () => {
@@ -62,7 +63,7 @@ const KlienHome = () => {
           </div>
         </div>
 
-        <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
+        {/* <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20 pl-52 pr-6'>
               <Image src={Sebelas} alt="sebelas"/>
           </div>
@@ -105,13 +106,15 @@ const KlienHome = () => {
 
       
       <div className='flex justify-between'>
-       <a className='mx-auto mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
+       <a className='font nuni mx-auto mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
           Hubungi Kami
         </a>
     </div>
 
     </div>
+ */}
 
+ <Footer/>
         </section>
     </>
   )
