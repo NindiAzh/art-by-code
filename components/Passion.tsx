@@ -30,7 +30,7 @@ const Passion = () => {
                   <div className="flex -mx-4 items-center flex-wrap">
                         <article className="flex w-5/6">
                             <CardCollab
-                                img="/cb1.svg"
+                                img="/code.svg"
                                 judul="Kualitas Kode"
                                 para="Memberikan kode 
                                 berkualitas baik yang telah 

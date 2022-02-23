@@ -38,7 +38,7 @@ const Footer = () => {
 
       
       <div className='flex justify-between'>
-       <a className='mx-auto mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
+       <a className='mx-auto font-nuni mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
           Hubungi Kami
         </a>
     </div>

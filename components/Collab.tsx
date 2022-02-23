@@ -17,9 +17,6 @@ const Collab = () => {
                 <p className="text-lg font-normal px-4 w-4/6">Komunikasi dan transparansi adalah fondasi dari hubungan 
                     jangka panjang yang kita semua inginkan. Jadi, ayo ngobrol
                     dan gali lebih dalam lagi kebutuhan kamu! </p>
-                {/* <button className="bg-puerto-rico-500 text-white-50 text-sm py-2 px-4 mt-14 mx-5 inline-flex items-center rounded-md">
-                    Mau dong!
-                    </button> */}
 
                     <svg className="mx-4 mt-8"  width="40" height="3" viewBox="0 0 40 3" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="40" height="3" rx="1.5" fill="#1DC0AD"/>
