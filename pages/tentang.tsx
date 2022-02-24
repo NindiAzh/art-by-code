@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Bg from '../public/tentang.svg'
-import Code from '../public/code.svg'
+import Ttg1 from '../public/ttg1.svg'
+import Ttg2 from '../public/ttg2.svg'
 import Footer from "../components/Footer"
 
 const tentang = () => {
@@ -21,7 +22,7 @@ const tentang = () => {
                     <div className="flex -mx-4 mt-3 items-center flex-wrap">
                         <div>
                         <div className="px-8 mt-6 lg:w-8/12 md:w-7/12">
-                           <Image src={Code} alt="tentang" />
+                           <Image src={Ttg1} alt="tentang" />
                         </div>
 
                     <div>
@@ -37,7 +38,7 @@ const tentang = () => {
                     <div className="flex -mx-4 mt-10 items-center flex-wrap">
                         <div>
                         <div className="px-8 mt-6 lg:w-8/12 md:w-7/12">
-                           <Image src={Code} alt="tentang" />
+                           <Image src={Ttg2} alt="tentang" />
                         </div>
 
                     <div>

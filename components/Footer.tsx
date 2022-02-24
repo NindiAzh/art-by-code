@@ -1,6 +1,7 @@
 import React from 'react'
 import JudulProject from './JudulProject'
 import Button from './Button'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -38,9 +39,9 @@ const Footer = () => {
 
       
       <div className='flex justify-between'>
-       <a className='mx-auto font-nuni mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg'>
+       <Link href="/hubungi"><a className='mx-auto font-nuni mt-20 border border-puerto-rico-500 text-puerto-rico-500 font-extrabold py-3 px-4 rounded-lg cursor-pointer'>
           Hubungi Kami
-        </a>
+        </a></Link>
     </div>
 
     </div>

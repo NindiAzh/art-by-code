@@ -37,7 +37,7 @@ const Passion = () => {
                                 kami tinjau dan uji"
                             />
                              <CardCollab
-                                img="/cb2.svg"
+                                img="/code2.svg"
                                 judul="Tes Otomatis"
                                 para="Melakukan rangkaian tes
                                 otomatis dengan solusi
@@ -45,7 +45,7 @@ const Passion = () => {
                             />
 
                              <CardCollab
-                                img="/cb3.svg"
+                                img="/code3.svg"
                                 judul="Selalu Terkini"
                                 para="Membangun solusi kamu
                                 dengan teknologi dan
