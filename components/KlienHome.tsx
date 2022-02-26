@@ -27,7 +27,7 @@ const KlienHome = () => {
           <JudulProject><p>Klien Kami</p></JudulProject>
         </div>
 
-        <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
+        <div className='md:flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
           <div className='flex justify-between mx-20'>
               <Image src={Satu} alt="satu"/>
           </div>

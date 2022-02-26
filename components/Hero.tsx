@@ -9,7 +9,7 @@ const Hero = () => {
     return (
     <>
 
-        <section className='hero flex justify-between py-28 xl:mx-20'>
+        <section className='md:flex justify-between py-28 xl:mx-20'>
             <div className='overlay text-center mx-14 py-28 sm:text-left'>
             <p className="inline-block py-4 px-5 text-gray-500 mb-3 text-2xl">
                 Kami adalah <span className='text-puerto-rico-500 font-bold font-mons'>Art By Code <span>&#10072;</span> ABC</span></p>
