@@ -69,7 +69,7 @@ const Navbar = () => {
                     {(ref) => (
                         // handle the mobile menu tabs
                         <div className="md:hidden">
-                            <div ref={ref} className="bg-puerto-rico-200 px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
+                            <div ref={ref} className="bg-white-100 px-2 pt-2 pb-8 space-y-3 sm:px-3 flex flex-col items-center">
                             <Link href="/"><a className="cursor-pointer hover:bg-puerto-rico-500 font-semibold px-52 py-2 text-base rounded-md hover:text-black">Tentang Kami</a></Link>
                                         <Link href="/solusi"><a className="cursor-pointer hover:bg-puerto-rico-500 text-black hover:text-white px-52 py-2 rounded-md text-base font-medium">Solusi Kami</a></Link>
                                         <Link href="/carakerja"><a className="cursor-pointer hover:bg-puerto-rico-500 text-black hover:text-white px-52 py-2 rounded-md text-base font-medium">Cara Kerja</a></Link>
