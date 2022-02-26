@@ -7,7 +7,7 @@ import {IoIosArrowDown} from 'react-icons/io'
 const hubungi = () => {
     return (
        <>
-        <section className='flex justify-between py-18 xl:mx-20 font-nuni'>
+        <section className='md:flex justify-between py-18 xl:mx-20 font-nuni'>
             <div className='overlay text-center mx-4 ml-10 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                 CONTACT US</p>
@@ -29,7 +29,7 @@ const hubungi = () => {
                     name="Beritahu kami email kamu ..."
                     />
 
-                    <div className='w-10/12 '>
+                    <div className='w-10/12'>
                             <button className='ring-1 ring-star-dust-500 rounded-md w-full px-4 py-3 mx-4 mt-3 outline-none text-lg font-nuni text font-black inline-flex items-center'>
                                 Web Development <IoIosArrowDown className='ml-auto' />
                     

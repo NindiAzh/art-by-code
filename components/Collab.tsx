@@ -9,7 +9,7 @@ import Passion from "./Passion"
 const Collab = () => {
   return (
     <>
-        <section className='flex justify-between py-24 xl:mx-20 font-nuni'>
+        <section className='md:flex justify-between py-24 xl:mx-20 font-nuni'>
             <div className='overlay text-center mx-4 ml-10 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                     COLLABORATION</p>

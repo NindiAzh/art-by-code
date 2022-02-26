@@ -7,7 +7,7 @@ import Footer from "../components/Footer"
 const tentang = () => {
   return (
     <>
-        <section className='flex justify-between py-24 xl:mx-20 font-nuni'>
+        <section className='md:flex justify-between py-24 xl:mx-20 font-nuni'>
             <div className='overlay text-center mx-4 ml-10 py-28 sm:text-left'>
                 <p className="inline-block pt-8 px-5 text-puerto-rico-500 text-xs">
                     OUR BELIEF</p>
@@ -35,7 +35,7 @@ const tentang = () => {
                         </div>
                     </div>
 
-                    <div className="flex -mx-4 mt-10 items-center flex-wrap">
+                    <div className="md:flex -mx-4 mt-10 items-center flex-wrap">
                         <div>
                         <div className="px-8 mt-6 lg:w-8/12 md:w-7/12">
                            <Image src={Ttg2} alt="tentang" />

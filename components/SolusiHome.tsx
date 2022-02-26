@@ -7,7 +7,6 @@ import uiux from '../public/uiux.svg'
 import machine from '../public/machine.svg'
 import workflow from '../public/workflow.svg'
 import brand from '../public/brand.svg'
-import Button2 from './Button2'
 
 
 
