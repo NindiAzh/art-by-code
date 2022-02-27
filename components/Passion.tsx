@@ -6,7 +6,7 @@ import Clean from "./Clean"
 const Passion = () => {
   return (
     <>
-         <section className='bg-puerto-rico-50 flex justify-between font-nuni'>
+         <section className='bg-puerto-rico-50 md:flex justify-between font-nuni'>
                 <div className='py-32 pl-32 w-2/3'>
                     <Image src={Img1} alt="appdev"/>
                 </div>
@@ -27,8 +27,8 @@ const Passion = () => {
                     </svg>
 
 
-                  <div className="flex -mx-4 items-center flex-wrap">
-                        <article className="flex w-5/6">
+                  <div className="flex -mx-4 sm:items-center flex-wrap">
+                        <article className="sm:flex w-5/6">
                             <CardCollab
                                 img="/code.svg"
                                 judul="Kualitas Kode"

@@ -22,24 +22,24 @@ const SolusiHome = () => {
         </div>
 
       <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
-          <div className='flex justify-between mx-20 w-60'>
+          <div className='flex justify-between mx-20 w-66'>
             <Image src={webdev} alt="webdev" />
           </div>
-          <div className='mx-24 w-60'>
+          <div className='mx-8 w-66'>
             <Image src={appdev} alt="appdev" />
           </div>
-          <div className='mx-16 w-60'>
+          <div className='mx-16 w-66'>
             <Image src={uiux} alt="uiux" />
           </div>
-       </div>
-       <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'>
-          <div className='flex justify-between mx-20 w-60'>
+       {/* </div> */}
+       {/* <div className='flex mx-14 2xl:mx-14 mt-20  flex-wrap'> */}
+          <div className='flex justify-between mx-20 mt-32 w-66'>
             <Image src={machine} alt="machine" />
           </div>
-          <div className='mx-24 w-60'>
+          <div className='mx-8 mt-32 w-66'>
             <Image src={workflow} alt="workflow" />
           </div>
-          <div className='mx-16 w-60'>
+          <div className='mx-16 mt-32 w-66'>
             <Image src={brand} alt="brand" />
           </div>
 
