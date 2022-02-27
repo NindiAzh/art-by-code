@@ -130,7 +130,11 @@ module.exports = {
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      borderStyle: ['responsive', 'hover'],
+      borderWidth: ['responsive', 'hover'],
+    
+    },
   },
   plugins: [],
 }

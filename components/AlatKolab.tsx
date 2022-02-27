@@ -36,11 +36,13 @@ const AlatKolab = () => {
                 <Image src={GoogleDocs} alt="tele"/>
                 <h1 className='text-2xl font-nuni font-black text-dodger-blue-500 mt-3'>Google Docs</h1>
                 <p className='text-lg font-nuni mt-2 w-2/3'>for dynamic collaboration n documentation</p>
-            </div><div className="mt-3 lg:w-8/12 md:w-7/12">
+            </div>
+            <div className="mt-3 lg:w-8/12 md:w-7/12">
                 <Image src={Figma} alt="tele"/>
                 <h1 className='text-2xl font-nuni font-black text-pomegranate-500 mt-3'>Figma</h1>
                 <p className='text-lg font-nuni mt-2 w-2/3'>for designing and presenting the mockup design</p>
-            </div><div className="mt-3 lg:w-8/12 md:w-7/12">
+            </div>
+            <div className="mt-3 lg:w-8/12 md:w-7/12">
                 <Image src={Whimsical} alt="tele"/>
                 <h1 className='text-2xl font-nuni font-black text-purple-heart-500 mt-3'>Whimsical</h1>
                 <p className='text-lg font-nuni mt-2 w-2/3'>for designing and presenting the wireframe</p>
